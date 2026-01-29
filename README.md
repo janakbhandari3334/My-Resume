@@ -166,7 +166,7 @@
                     </tr>
 
                 </table>
-</div>
+
 
 <div class="projects">
                 <p><b><span style="font-family:'Seoge UI';font-size:30px;">Projects & Internships:</span></b><p></p><hr><br>
@@ -185,7 +185,7 @@
 
                    
                 </ul>
-</div>
+
 
 <div class="certificate">
                 <p><b><span style="font-family:'Seoge UI';font-size:30px;">Certifications:</span></b></p>
@@ -215,7 +215,4 @@
                              </iframe>
                         
                         </div> 
-                </ul>
-            </div>
-    </body>
-</html>
+                
