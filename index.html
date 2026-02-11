@@ -1,219 +1,208 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume - Janak Bhandari</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resume - Janak Bhandari</title>
 
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
 
+/* LEFT SIDE */
+#left_side {
+    width: 25%;
+    height: 100vh;
+    padding: 20px;
+    background-color: rgb(112, 181, 175);
+    position: fixed;
+    left: 0;
+    top: 0;
+    text-align: center;
+}
 
+/* RIGHT SIDE */
+#right_side {
+    margin-left: 30%;
+    padding: 20px;
+}
 
-        #left_side {
-            width: 25%;
-            height: 100%;
-            padding: 20px;
-            background-color: rgb(112, 181, 175);
-            position: fixed;
-            left: 0;
-            top: 0;
-            text-align: center;
-        }
+/* PROFILE IMAGE */
+.profile-photo {
+    width: 130px;
+    height: 160px;
+    object-fit: cover;
+    border: 2px solid #000;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
 
-        #right_side {
-            margin-left: 30%;
-            padding: 20px;
-        }
-        
-        .profile-photo {
-            width: 130px;
-            height: 160px;
-            object-fit: cover;
-            border: 2px solid #000;
-            border-radius: 5px;
-            margin-bottom: 15px;
-        }
+/* HEADINGS */
+.heading {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+}
 
-        .contactinfo {
-            color: rgb(20, 1, 1);
-        }
+.section-title {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+}
 
-        .skills {
-            line-break: auto;
-        }
+/* TABLE */
+table.edu {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+}
 
-        table.edu {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0;
-            font-size: 16px;
-        }
+th, td {
+    border: 1px solid #000;
+    padding: 10px;
+}
 
-        th, td {
-            border: 1px solid #110303;
-            padding: 10px;
-            text-align: left;
-        }
+th {
+    background-color: darkgrey;
+}
 
-        th {
-            background-color: darkgrey;
-        }
+td {
+    background-color: lightgrey;
+}
 
-        td {
-            background-color: lightgrey;
-        }
+/* LIST */
+ul {
+    list-style: none;
+    padding-left: 0;
+}
 
-        ul {
-            list-style: none;
-            padding-left: 0;
-        }
+ul li {
+    margin-bottom: 8px;
+}
 
-        ul li {
-            margin-bottom: 10px;
-        }
+/* LINE */
+hr {
+    border: 1px solid #000;
+}
 
-        hr {
-            border: 1px solid #000105;
-        }
+/* VIDEO */
+iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+}
 
-        .heading {
-            font-family: 'Segoe UI', sans-serif;
-            font-size: 30px;
-        }
-    </style>
+/* MOBILE RESPONSIVE */
+@media (max-width: 768px) {
+    #left_side {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+
+    #right_side {
+        margin-left: 0;
+    }
+}
+</style>
 </head>
-<body>
 
+<body>
 
 <!-- LEFT SIDE -->
 <div id="left_side">
+    <img src="https://i.ibb.co/MzhLHJp/IMG-5362.png" alt="Janak Bhandari" class="profile-photo">
 
-<img src="https://i.ibb.co/MzhLHJp/IMG-5362.png"
-     alt="Janak Bhandari"
-     class="profile-photo">
-        
-<p><span class="heading" style="color:rgb(10, 1, 1)">Janak Bhandari</span></p>
-        <p style="color:rgb(14, 4, 4)">Student at New Horizon College</p>
-        <hr>
-        <div class="contactinfo">
-            <p class="heading" style="color:rgb(14, 1, 1)">Contact Info</p>
-            <ul>
-                <li>+91 8050660746</li>
-                <li>janakbhandari3334@gmail.com</li>
-                <li><a href="https://www.linkedin.com/in/janakbhandari2003/" style="color:rgb(6, 34, 196)">LinkedIn - Janak Bhandari</a></li>
-                <li><a href="https://github.com/janakbhandari3334" style="color:rgb(9, 31, 199)">GitHub - Janak Bhandari</a></li>
+    <p class="heading">Janak Bhandari</p>
+    <p>Student at New Horizon College</p>
+    <hr>
 
-            </ul>
-        </div>
-    </div>
+    <p class="heading">Contact Info</p>
+    <ul>
+        <li>📞 +91 8050660746</li>
+        <li>📧 janakbhandari3334@gmail.com</li>
+        <li><a href="https://www.linkedin.com/in/janakbhandari2003/" target="_blank">LinkedIn</a></li>
+        <li><a href="https://github.com/janakbhandari3334" target="_blank">GitHub</a></li>
+    </ul>
+</div>
 
+<!-- RIGHT SIDE -->
 <div id="right_side">
-        <div class="obj">
-            <p><b><span style="font-family:'Seoge UI';font-size:30px;">Career Objective:</span></b><p></p><hr><br>
-            
-            <p>A highly driven BCA graduate with expertise in programming, database management, and
-               cybersecurity, seeking to launch my career in a technology-driven organization where I can build
-               intelligent, secure, and scalable digital solutions. I aim to combine my technical knowledge,
-               problem-solving ability, and entrepreneurial mindset to deliver real-world impact and long-term
-            value.</p>
 
-<div class="skills">
-                <p><b><span style="font-family:'Seoge UI';font-size:30px;">Skills:</span></b><p></p><hr><br>
-                
-                <p>
-                    <p></p><b>Programming Languages:</b> C/C++, Python, JavaScript, SQL.</p> 
-                    <p></p><b>Technical Skills:</b> Machine Learning, Data Analytics.</p>
-                    <p></p><b>Soft Skills:</b> Problem Solving, Teamwork, Collaboration, Time Management.</p>
-                </p>
-            </div>
+    <p class="section-title">Career Objective</p>
+    <hr>
+    <p>
+        A highly driven BCA graduate with expertise in programming, database management, and cybersecurity,
+        seeking to launch my career in a technology-driven organization where I can build intelligent,
+        secure, and scalable digital solutions.
+    </p>
 
-<div class="education">
-                <p><b><span style="font-family:'Seoge UI';font-size:30px;">Education:</span></b><p></p><hr><br>
-                
-                <table class="edu">
-                    <tr>
-                        <th>Degree</th>
-                        <th>Institution</th>
-                        <th>Year of Completion</th>
-                        <th>CGPA/Percentage</th>
-                        
-                    </tr>
-                    <tr>
-                        <td>Bachelor of Computer Application - BCA </td>
-                        <td>New Horizon College</td>
-                        <td>2026</td>
-                        <td>8.10 / 77.75%</td>
-                         
-                    </tr>
-                    <tr>
-                        <td>Higher Schooling - Class 12</td>
-                        <td>New Horizon Pre-University College</td>
-                        <td>2023</td>
-                        <td>415 / 69.16%</td>
-                        
+    <p class="section-title">Skills</p>
+    <hr>
+    <p><b>Programming Languages:</b> C/C++, Python, JavaScript, SQL</p>
+    <p><b>Technical Skills:</b> Machine Learning, Data Analytics</p>
+    <p><b>Soft Skills:</b> Problem Solving, Teamwork, Collaboration, Time Management</p>
 
-                    </tr>
-                    <tr>
-                        <td>Secondary Schooling - Class 10</td>
-                        <td>Shree Balkalyan Secondary School</td>
-                        <td>2021</td>
-                        <td>3.10 / 77.5%</td>
-                        
-                    </tr>
+    <p class="section-title">Education</p>
+    <hr>
+    <table class="edu">
+        <tr>
+            <th>Degree</th>
+            <th>Institution</th>
+            <th>Year</th>
+            <th>Score</th>
+        </tr>
+        <tr>
+            <td>BCA</td>
+            <td>New Horizon College</td>
+            <td>2026</td>
+            <td>8.10 CGPA</td>
+        </tr>
+        <tr>
+            <td>Class 12</td>
+            <td>New Horizon PU College</td>
+            <td>2023</td>
+            <td>69.16%</td>
+        </tr>
+        <tr>
+            <td>Class 10</td>
+            <td>Shree Balkalyan Secondary School</td>
+            <td>2021</td>
+            <td>77.5%</td>
+        </tr>
+    </table>
 
-                </table>
+    <p class="section-title">Projects & Internships</p>
+    <hr>
+    <ul>
+        <li><b>Task Manager Web App</b> – Full-stack app with authentication & database.</li>
+        <li><b>Internship:</b> Full-Stack Web Development – Prodigy InfoTech (2026)</li>
+    </ul>
+
+    <p class="section-title">Certifications</p>
+    <hr>
+    <ul>
+        <li>Ethical Hacking</li>
+        <li>Data Protection Officer</li>
+        <li>Big Data & Hadoop</li>
+        <li>Angular</li>
+        <li>Software Testing</li>
+    </ul>
+
+    <p class="section-title">Hobbies & Interests</p>
+    <hr>
+    <ul>
+        <li>Software development & investing</li>
+        <li>Open-source contribution on GitHub</li>
+    </ul>
+
+    <p class="section-title">Self Introduction Video</p>
+    <hr>
+    <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" allowfullscreen></iframe>
+
 </div>
 
-<div class="projects">
-                <p><b><span style="font-family:'Seoge UI';font-size:30px;">Projects & Internships:</span></b><p></p><hr><br>
-                
-                <ul>
-                    <li> <h3>Project : Task Manager Web App </h3> </li>
-                    <li>The app has user authentication, database storage, and an interactive UI. It demonstrates end-to-end full-stack development skills by integrating frontend design, backend logic, secure authentication, and persistent data management into a complete, user-friendly application.</li>
-
-                    
-                    <li> <h3>Internships : Full-Stack Web Development ( 2026 ) </h3> </li>
-                    <li>  Worked on Prodigy InfoTech, debugging, documentation, and teamwork. Gained
-                          exposure to project execution and professional workflows.</li>
-
-
-                   
-                </ul>
-</div>
-
-<div class="certificate">
-                <p><b><span style="font-family:'Seoge UI';font-size:30px;">Certifications:</span></b></p>
-                <hr>
-                <ul>
-                    <li>Ethical Hacking Certification 2023-24.</li>
-                    <li>Data Protection Officer Training 2023-24.</li>
-                    <li>BigData & Hadoop 2024-25.</li>
-                    <li>Angular 2024-25.</li>
-                    <li>Software testing 2025-26.</li>
-             
-             
-                    <p><b><span style="font-family:'Seoge UI';font-size:30px;">Hobbies and interest:</span></b><p></p><hr><br>
-                    <ul>
-                    <li> To become a skilled software developer and successful investor.</li>
-                    <li><p>Passionate in coding and contribute to projects on github.</p></li>
-                          
-                </ul>
-
-                 <ul>
-                    <p><b><span style="font-family:'Seoge UI';font-size:30px;">Self Introduction Video</span></b><p></p><hr><br>
-                        <div class="intro-video">
-                             <iframe width="560" height="315"
-                             src="https://www.youtube.com/embed/"
-                             title="Self Introduction Video"
-                             allowfullscreen>
-                             </iframe>
-                        
-                        </div> 
-                </ul>
-            </div>
-    </body>
+</body>
 </html>
